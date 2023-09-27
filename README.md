@@ -6,12 +6,23 @@ bcmアプリを理解できるだけの素養が無いので
 terasoluna使うとややこしいからそれぞれSpringFrameworkを直に使ったバージョンで  
 チュートリアルこなす
 
-Gradle, IntelliJ, SpringWeb, SpringMVC
+## 共通環境
 
-- helloworld
-  - [2.3. はじめてのSpring MVCアプリケーション](http://terasolunaorg.github.io/guideline/current/ja/Overview/FirstApplication.html)
+- Gradle
+- IntelliJ
+- Java17
+
+## デモ
+
+各ディレクトリREADMEへ本家チュートリアルとの差分など結果レポート
+
+- [2.3. はじめてのSpring MVCアプリケーション](http://terasolunaorg.github.io/guideline/current/ja/Overview/FirstApplication.html)
+    - [helloworld/](https://github.com/kudkki/study_terasoluna/tree/main/helloworld)
  
-以下予定
+
+## メモ
+
+### 以下予定
 
 http://terasolunaorg.github.io/guideline/current/ja/Introduction/Introduction.html
 ```
