@@ -20,9 +20,38 @@ terasoluna使うとややこしいからそれぞれSpringFrameworkを直に使�
     - [helloworld/](https://github.com/kudkki/study_terasoluna/tree/main/helloworld)
  
 
-## メモ
+## メモ bcm前学習メニュー
 
-### 以下予定
+http://terasolunaorg.github.io/guideline/current/ja/Introduction/Introduction.html
+
+基本的にイントロダクションに沿った進め方を想定するが
+さらにbcmへ入門することを前提とした必要そうな項目をとっている
+
+- 2.3. はじめてのSpring MVCアプリケーション チュートリアル
+    - 2.4. アプリケーションのレイヤ化　座学
+- 11.1. チュートリアル(Todoアプリケーション)　チュートリアル
+    - 3. アプリケーション開発　座学長い
+- 11.2. チュートリアル(Todoアプリケーション REST編)　チュートリアル
+    - 5.1. RESTful Web Service　座学
+- 4.2. 例外ハンドリング　座学＆実践
+- 6.1. データベースアクセス（共通編）
+- 6.3. データベースアクセス（JPA編）（Optional用に）
+- 10. 単体テスト
+  10.1. 単体テスト概要
+  10.2. 単体テストの実装
+  10.3. 単体テストの実行
+- 12.2. ボイラープレートコードの排除(Lombok)
+
+---
+
+以下はbcmに必要でもないが残りチュートリアルこなしてから
+他ドキュメントも読み込んでいくと良さそうという程度の意味で
+
+- 11.3. セッションチュートリアル
+- 11.4. Spring Securityチュートリアル
+
+
+### 以下参考
 
 http://terasolunaorg.github.io/guideline/current/ja/Introduction/Introduction.html
 ```
