@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+        .strike {
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+<h1>Todo List</h1>
+<hr />
+<div id="todoForm">
+    <form action="#" th:action="@{/todo/create}" th:object="${todoForm}" method="post">
+        <label>Title : </label>
+        <input type="text" th:field="*{todoTitle}" />
+        <input type="submit" value="登録">
+    </form>
+</div>
+<div id="todoList">
+    <ul th:each="todo : ${todos}">
+        <li>
+            <th:block th:if="${todo.finished}">
+                <span class="strike">
+                    <p th:text="${todo.todoTitle}"></p>
+                </span>
+            </th:block>
+            <th:block th:unless="${todo.finished}">
+                <p th:text="${todo.todoTitle}"></p>
+            </th:block>
+        </li>
+    </ul>
+</div>
+</body>
+</html>

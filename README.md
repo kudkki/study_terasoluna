@@ -50,6 +50,12 @@ http://terasolunaorg.github.io/guideline/current/ja/Introduction/Introduction.ht
 - 11.3. セッションチュートリアル
 - 11.4. Spring Securityチュートリアル
 
+## 教材サイト以外の参考情報
+
+- [DAO/DTOパターン](https://kanda-it-school-kensyu.com/java-jdbc-contents/jj_ch04/jj_0402/)
+- 教材でコードが無いcommonライブラリ等はこちらから探してつかう  
+https://github.com/terasolunaorg?q=gfw&type=all&language=&sort=
+
 
 ### 以下参考
 
