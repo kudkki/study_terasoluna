@@ -40,7 +40,7 @@ public class TodoServiceImpl implements TodoService {
     @Override
     public Todo create(Todo todo) {
         long unfinishedCount = todoRepository.countByFinished(false);
-        if(unfinishedCount > MAX_UNFINISHED_COUNT){
+        if(unfinishedCount >= MAX_UNFINISHED_COUNT){
             ResultMessages messages = ResultMessages.error();
             messages.add(ResultMessage.fromText("[E001] The count of un-finished Todo must not be over " + MAX_UNFINISHED_COUNT));
 

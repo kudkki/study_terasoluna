@@ -32,7 +32,7 @@ public class ResultMessage implements Serializable {
     }
 
     public static ResultMessage fromText(String text) {
-        Assert.notNull(text, "code must be not null.");
+        Assert.notNull(text, "text must be not null.");
         return new ResultMessage(null, EMPTY_ARRAY, text);
     }
 
