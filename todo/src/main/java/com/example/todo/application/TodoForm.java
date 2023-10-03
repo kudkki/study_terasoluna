@@ -9,9 +9,12 @@ public class TodoForm implements Serializable {
 
     public static interface TodoCreate {}
     public static interface TodoFinish {}
+
+    public static interface TodoDelete {}
+
     public static final long serialVersionUID = 1L;
 
-    @NotNull(groups = {TodoFinish.class})
+    @NotNull(groups = {TodoFinish.class, TodoDelete.class})
     private String todoId;
 
     @NotNull(groups = {TodoCreate.class})

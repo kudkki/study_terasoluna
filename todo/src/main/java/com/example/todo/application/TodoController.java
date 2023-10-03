@@ -104,4 +104,25 @@ public class TodoController {
 
         return "redirect:/todo/list";
     }
+
+    @PostMapping("delete")
+    public String delete(
+            @Validated({Default.class, TodoForm.TodoDelete.class}) TodoForm todoForm,
+            BindingResult bindingResult, Model model,
+            RedirectAttributes attributes
+    ){
+        if(bindingResult.hasErrors()){
+            return list(model);
+        }
+        try{
+            todoService.delete(todoForm.getTodoId());
+        }catch (BusinessException e){
+            model.addAttribute(e.getResultMessages());
+            return list(model);
+        }
+
+        attributes.addFlashAttribute(ResultMessages.success().add(ResultMessage.fromText("Delete success")));
+
+        return "redirect:/todo/list";
+    }
 }
