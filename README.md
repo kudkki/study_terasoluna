@@ -54,6 +54,7 @@ http://terasolunaorg.github.io/guideline/current/ja/Introduction/Introduction.ht
 使ってるアノテーションはTest/BeforeEachのみだから使い方としてはリファレンス見て使えれば十分そう
 それよりテスト観点として何をどうテストするものを書けばいいのか、とかどう構成すればいいのか、とかが必要そう
     - assertThatの使い方バリエーション（JUnitのAssertJの使い方 https://confrage.jp/junit%E3%81%AEassertj%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9/）
+    - Controller側は普通にlocalhost宛にHTTPリクエスト送ってレスポンスをAssertする
 
 - 12.2. ボイラープレートコードの排除(Lombok)
 
