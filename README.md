@@ -53,6 +53,7 @@ http://terasolunaorg.github.io/guideline/current/ja/Introduction/Introduction.ht
 - JUnit 5 ユーザガイド https://udzuki.jp/public/junit5-user-guide-ja/#writing-tests-annotations
 使ってるアノテーションはTest/BeforeEachのみだから使い方としてはリファレンス見て使えれば十分そう
 それよりテスト観点として何をどうテストするものを書けばいいのか、とかどう構成すればいいのか、とかが必要そう
+    - assertThatの使い方バリエーション（JUnitのAssertJの使い方 https://confrage.jp/junit%E3%81%AEassertj%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9/）
 
 - 12.2. ボイラープレートコードの排除(Lombok)
 
