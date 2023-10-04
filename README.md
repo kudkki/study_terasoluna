@@ -33,9 +33,18 @@ http://terasolunaorg.github.io/guideline/current/ja/Introduction/Introduction.ht
     - 3. アプリケーション開発　座学長い
 - 11.2. チュートリアル(Todoアプリケーション REST編)　チュートリアル
     - 5.1. RESTful Web Service　座学
-- 4.2. 例外ハンドリング　座学＆実践
-- 6.1. データベースアクセス（共通編）
-- 6.3. データベースアクセス（JPA編）（Optional用に）
+ 
+以降は、RESTful Todoアプリケーションをカスタムすることで学習する
+
+- 4.2. 例外ハンドリング　座学＆実践（Terasoluna資料はxmlベースでやってるからそのままは難しい、ErrorをハンドルしてException処理する機能を追加する）
+    - 【Spring】@RestControllerAdvice を使ってREST APIのエラーハンドラを作成する https://sebenkyo.com/2020/08/02/post-1260/#toc_id_3
+    - Spring Boot で 404 Not Found などのエラーが発生した際の表示をカスタマイズする https://qiita.com/niwasawa/items/f3479ef16efa488039fb
+
+- 6.3. データベースアクセス（JPA編）（Optional用に、JPA用いてページネーション機能を追加する）
+    - 【Optional入門】Javaでnullを扱うベストプラクティスのご紹介 https://www.bold.ne.jp/engineer-club/java-optional 
+    - ページネーション（実践） http://terasolunaorg.github.io/guideline/current/ja/ArchitectureInDetail/WebApplicationDetail/Pagination.html#dataaccessjpahowtousepageableobject
+    - Spring Data JPA - リファレンスドキュメント （座学） https://spring.pleiades.io/spring-data/jpa/docs/current/reference/html/
+
 - 10. 単体テスト
   10.1. 単体テスト概要
   10.2. 単体テストの実装
