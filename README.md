@@ -49,6 +49,11 @@ http://terasolunaorg.github.io/guideline/current/ja/Introduction/Introduction.ht
   10.1. 単体テスト概要
   10.2. 単体テストの実装
   10.3. 単体テストの実行
+
+- JUnit 5 ユーザガイド https://udzuki.jp/public/junit5-user-guide-ja/#writing-tests-annotations
+使ってるアノテーションはTest/BeforeEachのみだから使い方としてはリファレンス見て使えれば十分そう
+それよりテスト観点として何をどうテストするものを書けばいいのか、とかどう構成すればいいのか、とかが必要そう
+
 - 12.2. ボイラープレートコードの排除(Lombok)
 
 ---
