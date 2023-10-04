@@ -57,6 +57,8 @@ http://terasolunaorg.github.io/guideline/current/ja/Introduction/Introduction.ht
     - Controller側は普通にlocalhost宛にHTTPリクエスト送ってレスポンスをAssertする
 
 - 12.2. ボイラープレートコードの排除(Lombok)
+    - domain.modelでの使い方（）
+    - application.modeでの使い方（）
 
 ---
 
