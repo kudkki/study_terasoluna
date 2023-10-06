@@ -31,7 +31,11 @@ http://terasolunaorg.github.io/guideline/current/ja/Introduction/Introduction.ht
     - 2.4. アプリケーションのレイヤ化　座学
 - 11.1. チュートリアル(Todoアプリケーション)　チュートリアル
     - 3. アプリケーション開発　座学長い
-    - （あくまでbcmを目指すのでcoomon.codeGenを除いて、infrastructure.handler/mapperやapplication.exceptionもcom.test...controller/repositoryも倣う感じに作りこむ）
+    - （あくまでbcmを目指すのでcoomon.codeGenを除いて、infrastructure.handler/mapperやapplication.exceptionもcom.test...controller/repositoryも倣う感じに作りこむ
+    - handlerはextends RowCountCallbackHandlerで件数とったり条件検索した結果リストをモデルにして返したり
+    - mappperはimplements RowMapper<BusinessCardModel>でid指定1行取得した結果をモデルとしてオブジェクトアサインしたり
+    - exceptionはバリデーションとしてアプリケーションエラーを返す
+    - application.Erorr系はControllerから外れたルートをハンドリングしておく為の穴ふさぎ
 - 11.2. チュートリアル(Todoアプリケーション REST編)　チュートリアル
     - 5.1. RESTful Web Service　座学
  
