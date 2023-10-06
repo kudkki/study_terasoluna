@@ -172,9 +172,6 @@ public class TodoRepositoryImplTest {
         String sql = "INSERT INTO todo (todo_id, todo_title, finished, created_at) VALUES ('1', 'todotitle', 'true', '2023-04-01 10:00:00')";
         int result_num = jdbcTemplate.update(sql);
         System.out.println(result_num);
-
-
-
     }
 
 }
