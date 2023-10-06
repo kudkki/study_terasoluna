@@ -31,6 +31,7 @@ http://terasolunaorg.github.io/guideline/current/ja/Introduction/Introduction.ht
     - 2.4. アプリケーションのレイヤ化　座学
 - 11.1. チュートリアル(Todoアプリケーション)　チュートリアル
     - 3. アプリケーション開発　座学長い
+    - （あくまでbcmを目指すのでcoomon.codeGenを除いて、infrastructure.handler/mapperやapplication.exceptionもcom.test...controller/repositoryも倣う感じに作りこむ）
 - 11.2. チュートリアル(Todoアプリケーション REST編)　チュートリアル
     - 5.1. RESTful Web Service　座学
  
